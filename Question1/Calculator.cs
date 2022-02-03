@@ -8,7 +8,7 @@ namespace ExercisesOOP.Question1
 {
     public class Calculator
     {
-       public void CalculatorApp()
+       public void calculatorApp()
        {
             bool keepLoop = true;
             while (keepLoop)
@@ -45,7 +45,6 @@ namespace ExercisesOOP.Question1
                                 keepLoop = true;
                             }
                             break;
-
                         case 2:
                             keepLoop = false;
                             Console.WriteLine("=== Subtraction Function ===");
@@ -66,7 +65,6 @@ namespace ExercisesOOP.Question1
                                 keepLoop = true;
                             }
                             break;
-
                         case 3:
                             keepLoop = false;
                             Console.WriteLine("=== Multiplication Function ===");
@@ -107,8 +105,7 @@ namespace ExercisesOOP.Question1
                                 keepLoop = true;
                             }
                             break;
-                    }
-                    
+                    }                    
                 }
                 else
                 {
@@ -117,7 +114,6 @@ namespace ExercisesOOP.Question1
                     keepLoop = true;
                 }
             }
-       }
-        
+       }        
     }
 }

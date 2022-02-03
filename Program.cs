@@ -1,11 +1,11 @@
 ﻿using ExercisesOOP.Question1;
+using ExercisesOOP.Question2;
 using System;
 
 namespace ExercisesOOP
 {
     class Program
-    {
-        
+    {        
         static void Main(string[] args)
         {
             Program newMenu = new();
@@ -36,7 +36,11 @@ namespace ExercisesOOP
                     {
                         case 1:
                             Calculator calc = new();
-                            calc.CalculatorApp();
+                            calc.calculatorApp();
+                            break;
+                        case 2:
+                            Carpete carp = new();
+                            carp.carpeteApp();
                             break;
                     }
                 }
@@ -46,10 +50,7 @@ namespace ExercisesOOP
                     Console.WriteLine();
                     keepLoop = true;
                 }
-
-            }
-            
-        }
-        
+            }            
+        }        
     }
 }

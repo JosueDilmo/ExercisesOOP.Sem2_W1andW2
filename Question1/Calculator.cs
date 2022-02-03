@@ -117,8 +117,7 @@ namespace ExercisesOOP.Question1
                     keepLoop = true;
                 }
             }
-
-        }
+       }
         
     }
 }

@@ -5,12 +5,21 @@ namespace ExercisesOOP
 {
     class Program
     {
+        
         static void Main(string[] args)
+        {
+            Program newMenu = new();
+            newMenu.openMenu();
+        }
+
+        public void openMenu()
         {
             bool keepLoop = true;
             while (keepLoop)
             {
+                Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
                 Console.WriteLine("Exercises 1 and 2 by 24061 - Josue Santos");
+                Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
                 Console.WriteLine("Question .1");
                 Console.WriteLine("Question .2");
                 Console.WriteLine("Question .3");
@@ -20,7 +29,7 @@ namespace ExercisesOOP
                 Console.WriteLine("Question .7");
                 Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-");
                 Console.Write("Your option: ");
-                if (Int32.TryParse(Console.ReadLine(), out int menuOption))                
+                if (Int32.TryParse(Console.ReadLine(), out int menuOption))
                 {
                     Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-");
                     switch (menuOption)
@@ -39,6 +48,8 @@ namespace ExercisesOOP
                 }
 
             }
+            
         }
+        
     }
 }

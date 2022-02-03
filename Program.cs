@@ -1,5 +1,6 @@
 ﻿using ExercisesOOP.Question1;
 using ExercisesOOP.Question2;
+using ExercisesOOP.Question3;
 using System;
 
 namespace ExercisesOOP
@@ -35,13 +36,21 @@ namespace ExercisesOOP
                     switch (menuOption)
                     {
                         case 1:
+                            keepLoop = false;
                             Calculator calc = new();
                             calc.calculatorApp();
                             break;
                         case 2:
+                            keepLoop = false;
                             Carpete carp = new();
                             carp.carpeteApp();
                             break;
+                        case 3:
+                            keepLoop = false;
+                            MinToHour time = new();
+                            time.timeConvert();
+                            break;
+
                     }
                 }
                 else

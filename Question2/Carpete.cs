@@ -31,6 +31,8 @@ namespace ExercisesOOP.Question2
             double roomArea = roomLength * roomWidth;
             decimal totalPrice = Convert.ToDecimal(roomArea) * carpetePrice;
             Console.WriteLine($"The price for carpeting your room is: ${totalPrice}");
+            Program menu = new();
+            menu.openMenu();
         }
     }
 }

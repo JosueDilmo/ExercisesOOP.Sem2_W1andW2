@@ -114,6 +114,8 @@ namespace ExercisesOOP.Question1
                     keepLoop = true;
                 }
             }
+            Program menu = new();
+            menu.openMenu();
        }        
     }
 }

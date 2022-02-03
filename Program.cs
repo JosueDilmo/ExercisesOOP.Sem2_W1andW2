@@ -1,6 +1,7 @@
 ﻿using ExercisesOOP.Question1;
 using ExercisesOOP.Question2;
 using ExercisesOOP.Question3;
+using ExercisesOOP.Question5;
 using System;
 
 namespace ExercisesOOP
@@ -24,7 +25,6 @@ namespace ExercisesOOP
                 Console.WriteLine("Question .1");
                 Console.WriteLine("Question .2");
                 Console.WriteLine("Question .3");
-                Console.WriteLine("Question .4");
                 Console.WriteLine("Question .5");
                 Console.WriteLine("Question .6");
                 Console.WriteLine("Question .7");
@@ -49,6 +49,11 @@ namespace ExercisesOOP
                             keepLoop = false;
                             MinToHour time = new();
                             time.timeConvert();
+                            break;
+                        case 5:
+                            keepLoop = false;
+                            ValidaRate rate = new();
+                            rate.validRate();
                             break;
 
                     }

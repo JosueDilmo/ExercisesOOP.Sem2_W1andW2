@@ -3,6 +3,7 @@ using ExercisesOOP.Question2;
 using ExercisesOOP.Question3;
 using ExercisesOOP.Question5;
 using ExercisesOOP.Question6;
+using ExercisesOOP.Question7;
 using System;
 
 namespace ExercisesOOP
@@ -61,8 +62,11 @@ namespace ExercisesOOP
                             LawnMowing mowing = new();
                             mowing.lawnMowing();
                             break;
-
-
+                        case 7:
+                            keepLoop = false;
+                            RandomNum random = new();
+                            random.randomNumGen();
+                            break;
                     }
                 }
                 else

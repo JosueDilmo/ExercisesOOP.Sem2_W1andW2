@@ -2,6 +2,7 @@
 using ExercisesOOP.Question2;
 using ExercisesOOP.Question3;
 using ExercisesOOP.Question5;
+using ExercisesOOP.Question6;
 using System;
 
 namespace ExercisesOOP
@@ -55,6 +56,12 @@ namespace ExercisesOOP
                             ValidaRate rate = new();
                             rate.validRate();
                             break;
+                        case 6:
+                            keepLoop = false;
+                            LawnMowing mowing = new();
+                            mowing.lawnMowing();
+                            break;
+
 
                     }
                 }

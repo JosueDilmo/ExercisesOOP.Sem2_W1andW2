@@ -24,13 +24,13 @@ namespace ExercisesOOP.Question7
             {
                 Console.WriteLine($"You guessed it right! Your number: {userGuess}, system number: {randomNumber}");
             }
-            else if (userGuess <= 5 && userGuess != randomNumber)
+            else if (userGuess < randomNumber)
             {
                 Console.WriteLine("Your number is too low.");
                 //Console.WriteLine($"Random number was: {randomNumber}");
                 randomNumGen();
             }
-            else if (userGuess >= 5 && userGuess != randomNumber)
+            else if (userGuess > randomNumber)
             {
                 Console.WriteLine("Your number is too high.");
                 //Console.WriteLine($"Random number was: {randomNumber}");
